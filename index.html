@@ -20,8 +20,6 @@
       <hr />
     </header>
 
-    <img src="image/cover.jpg" height="500" />
-
     <!-- Home Section -->
     <section id="home">
       <h2>Welcome to Spice Garden Restaurant</h2>
@@ -33,7 +31,8 @@
       </p>
 
       <img
-        src="https://via.placeholder.com/700x300"
+        src="image/cover.jpg"
+        height="500"
         alt="Restaurant Banner"
         width="700"
       />
@@ -164,10 +163,10 @@
 
     <!-- Customer Reviews -->
     <section id="reviews">
-      <h2>Customer Reviews</h2>
+      <h2>Our Valued Customer Reviews</h2>
 
       <article>
-        <h3>John Smith</h3>
+        <h3>Leonel Messi</h3>
         <p>
           "Amazing food and excellent service! The biryani was one of the best I
           have ever tasted."
@@ -175,7 +174,7 @@
       </article>
 
       <article>
-        <h3>Sarah Khan</h3>
+        <h3>Kilean Embappe</h3>
         <p>
           "Very clean restaurant with a beautiful atmosphere. I loved the
           grilled chicken!"
@@ -183,7 +182,7 @@
       </article>
 
       <article>
-        <h3>David Lee</h3>
+        <h3>Christano Ronaldo</h3>
         <p>
           "Great place for family dinner. The staff were very friendly and
           helpful."
@@ -197,18 +196,33 @@
       <h2>Book a Table</h2>
       <form>
         <label for="name">Full Name:</label><br />
-        <input type="text" id="name" name="name" /><br /><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value="Your Full Name"
+        /><br /><br />
 
         <label for="email">Email Address:</label><br />
-        <input type="email" id="email" name="email" /><br /><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="your Email Address"
+        /><br /><br />
 
         <label for="phone">Phone Number:</label><br />
-        <input type="tel" id="phone" name="phone" /><br /><br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          value="Your Phone Number"
+        /><br /><br />
 
-        <label for="date">Reservation Date:</label><br />
+        <label for="date">Booking Date:</label><br />
         <input type="date" id="date" name="date" /><br /><br />
 
-        <label for="time">Reservation Time:</label><br />
+        <label for="time">Booking Time:</label><br />
         <input type="time" id="time" name="time" /><br /><br />
 
         <label for="guests">Number of Guests:</label><br />
@@ -218,6 +232,7 @@
           name="guests"
           min="1"
           max="20"
+          value="00"
         /><br /><br />
 
         <label for="message">Special Request:</label><br />
@@ -233,23 +248,41 @@
     <!-- Contact Section -->
     <section id="contact">
       <h2>Contact Us</h2>
-      <p><strong>Address:</strong> 123 Main Street, Dhaka, Bangladesh</p>
-      <p><strong>Phone:</strong> +880 1234-567890</p>
-      <p><strong>Email:</strong> info@spicegarden.com</p>
+      <p>
+        <strong>Address:</strong> 123 Main Street, Narsingdi Sadar, Bangladesh
+      </p>
+      <p><strong>Phone:</strong> +88000 000 000</p>
+      <p><strong>Email:</strong> mayeendu@gmail.com</p>
 
       <h3>Send Us a Message</h3>
       <form>
         <label for="cname">Your Name:</label><br />
-        <input type="text" id="cname" name="cname" /><br /><br />
+        <input
+          type="text"
+          id="cname"
+          name="cname"
+          value="Mayeen Uddin"
+        /><br /><br />
 
         <label for="cemail">Your Email:</label><br />
-        <input type="email" id="cemail" name="cemail" /><br /><br />
+        <input
+          type="email"
+          id="cemail"
+          name="cemail"
+          value="yourname@gmail.com"
+        /><br /><br />
 
         <label for="subject">Subject:</label><br />
         <input type="text" id="subject" name="subject" /><br /><br />
 
         <label for="comment">Message:</label><br />
-        <textarea id="comment" name="comment" rows="5" cols="40"></textarea
+        <textarea
+          id="comment"
+          name="comment"
+          rows="5"
+          cols="40"
+          value="Write message ... "
+        ></textarea
         ><br /><br />
 
         <input type="submit" value="Send Message" />
@@ -259,7 +292,10 @@
 
     <!-- Footer -->
     <footer>
-      <p>&copy; 2026 Spice Garden Restaurant. All rights reserved.</p>
+      <p>
+        &copy; 2026 Spice Garden Restaurant. All rights reserved to Mayeen
+        Uddin.
+      </p>
       <p>
         Follow us on:
         <a href="#">Facebook</a> | <a href="#">Instagram</a> |
